@@ -1,0 +1,130 @@
+/*----------
+   RESET
+----------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*--------
+   GENERAL
+--------*/
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/*-----------
+   HEADER
+------------*/
+.header-top{
+    background-color: #add8e6;
+    padding:  15px 0;
+    justify-content: space-between;
+}
+.header-bottom {
+    background-color: #00008b;
+    padding: 200px;
+}
+.header-top > .container {
+    display:flex;
+    background-color: #daa520;
+    align-items: center;
+    justify-content:  space-between;
+    
+}
+.header-top .logo,
+.header-top nav,
+.header-top .login {
+    border: 1px dashed black;
+    padding: 6px;
+    
+}
+.header-top .logo, .header-top .login {
+    width 20%
+}
+.header-top .login {
+    text-align: right ;
+}
+.header-top nav {
+    width: 60%;
+    text-align: center;
+}
+.login{
+    position:relative;
+    right: 2px;
+}
+/*---------
+   Figure
+---------*/
+.rectangle-container {
+    display: flex;
+    justify-content: center; /
+    gap: 0px; }
+
+.rectangle {
+    padding: 100px;
+    background-color: white;
+    height: 200px;
+    width: 1200px;
+    border: black dashed;
+    
+}
+.rectangle-pink {
+    padding: 100px;
+    background-color: pink;
+    height: 400px;
+    width: 600px; 
+    border: black dashed;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.rectangle-lightblue {
+    padding: 100px;
+    background-color: lightblue;
+    height: 400px; 
+    width: 300px;
+    border: black dashed;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.rectangle-grey {
+    background-color: grey;
+    height: 400px;
+    width: 100px; 
+    border: white dashed;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.rectangle-red {
+    padding: 100px;
+    background-color: pink;
+    height: 400px;
+    width: 200px; 
+    border: black dashed;
+    margin-top: 50px;
+    margin-bottom: 50px;}
+    
+    .square{
+    padding:100px;
+    height:650px;
+    width:650px;
+    background-color:#228B22;
+    border: black dashed;
+    margin-left: 400px;
+    margin-top: 50px;
+  /*--------
+    BACKGROUD
+ ----------*/
+}
+.background{
+    background-color: #D3D3D3;
+}
+
+.background-2 {
+    background-color: #23272A;
+}
+
+    
